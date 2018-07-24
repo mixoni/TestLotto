@@ -43,7 +43,7 @@ class Scene extends React.Component {
         });      */
         this.setState({ component : <div className="with-flag">
                          <div className="title-header">Izvlačenje počinje za</div>
-                         <ReactCountdownClock seconds={50}
+                         <ReactCountdownClock seconds={6}
                          color="#4fc3f7"
                          alpha={0.9}
                          size={500}
